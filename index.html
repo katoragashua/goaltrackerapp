@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Orbitron:wght@400;800&family=Press+Start+2P&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Goal<span id="goal-icon">🎯</span>Tracker</h1>
+    <div class="form-div">
+      <form action="#" id="goal-form" method="POST">
+        <label for="goal">Goal</label>
+        <input type="text" name="goal" id="goal" placeholder=" Enter Task" />
+        <label for="due">Due date</label>
+        <input type="date" name="due" id="due" />
+        <button type="submit" id="add-goal">Add Goal</button>
+        <small>*Double-click on goal to delete</small>
+      </form>
+    </div>
+
+    <div class="goals-div">
+    </div>
+  </body>
+</html>
